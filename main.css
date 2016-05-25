@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+}
+main {
+    width: 100vmin;
+    font-size: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+main div {
+    width: 33vmin;
+    height: 33vmin;
+    background: yellow;
+    display: inline-block;
+    border: 1px solid red;
+    transition: background-color, border-radius 1s;
+}
